@@ -1,0 +1,65 @@
+[33mcommit 342cb50a2fb76988dadebaabd718d1d63bd0aa6e[m[33m ([m[1;36mHEAD -> [m[1;32mexploring-the-angular-template-syntax[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Fri Jun 14 13:56:07 2019 +0200
+
+    before summary
+
+[33mcommit 31bf3835c616e7135b33bdf8da1e896417539f59[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 16:02:35 2019 +0200
+
+    copy
+
+[33mcommit df06c468f4aa407514241478af73318a18d1199b[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 15:59:31 2019 +0200
+
+    copy
+
+[33mcommit c384d89aa65547e5eb4d584b848a97bc04083018[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 15:52:59 2019 +0200
+
+    remove issue in copy
+
+[33mcommit d7c5b9c000571eadf98f24aafea0c368556191ad[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 15:51:11 2019 +0200
+
+    Syntaxt issue
+
+[33mcommit df68d395fd9d7665f7bd3c78f09d0072e941ff6e[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 15:49:10 2019 +0200
+
+    add style to nav
+
+[33mcommit 99c65e1870de0d7d5bf0a84d16d05654db56be63[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 15:44:50 2019 +0200
+
+    Add nav bar
+
+[33mcommit 772c3a4f20e5bf7b8b7c8015811ecacca1f27938[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 15:17:45 2019 +0200
+
+    improve read me
+
+[33mcommit f6619f63fca586fc140f73e69b605cb9a7bc07c2[m[33m ([m[1;33mtag: decorator-input-output[m[33m, [m[1;32mdecorator-input-output[m[33m)[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 15:11:02 2019 +0200
+
+    Input and output decorator
+
+[33mcommit 775d69cb3fc4e40e37fe9a18710c72bc7f7d5c94[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 10:29:09 2019 +0200
+
+    Getting start with angular
+
+[33mcommit 64e7fd99204ae9dfccc91ea5971e1225fb64f84d[m
+Author: Nicolas Bruy?re <nicolas.bruyere@nbb.be>
+Date:   Thu Jun 13 09:54:45 2019 +0200
+
+    initial commit
