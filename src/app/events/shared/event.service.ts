@@ -6,7 +6,7 @@ import { Injectable } from "@angular/core";
  * */
 @Injectable()
 export class EventService {
-  public static getEvents(): object {
+  public getEvents(): object {
     return EVENTS;
   }
 }
