@@ -1,14 +1,14 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
-/*
+/**
  * ngSwitchCase -> structural directive
  * [ngSwitch]
  * [class.green] -> class binding
  * [ngClass] -> expect object with boolean return
- * */
+ */
 @Component({
   selector: "event-thumbnail",
   template: `
-    <div class="well hoverwell thumbnail">
+    <div [routerLink]="['/events', event.id]" class="well hoverwell thumbnail">
       <h2>{{ event.name }}</h2>
       <div>Date: {{ event.date }}</div>
       <div
@@ -42,7 +42,7 @@ import { Component, EventEmitter, Input, Output } from "@angular/core";
       .pad-left {
         margin-left: 10px;
       }
-      .well{
+      .well {
         color: #bbb;
       }
       .green {
@@ -55,13 +55,13 @@ import { Component, EventEmitter, Input, Output } from "@angular/core";
   ]
 })
 export class EventThumbnailComponent {
-  /*
+  /**
    * @Input () : decorator to passe value"
    * @Output () : to communicate with a parent
    * EventEmitter : is an angular thing
-   * */
-  @Input() event: any;
-  @Output() testClick = new EventEmitter();
+   */
+  @Input() public event: any;
+  @Output() public testClick = new EventEmitter();
   // @Output() someValue: string = "test Value";
 
   private getHighlight() {
