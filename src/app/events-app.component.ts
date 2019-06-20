@@ -1,18 +1,15 @@
 import { Component } from "@angular/core";
 
-/*
+/**
  * Static files :
- * View angular json for the assets array to diffine the path that are automatically loaded (src/assets)
+ * View angular json for the assets array to define the path that are automatically loaded (src/assets)
  * For style and js :
- *
- *
- *
- * */
+ */
 @Component({
   selector: "events-app",
   template: `
     <nav-bar></nav-bar>
-    <events-list></events-list>
+    <router-outlet></router-outlet>
   `
 })
 export class EventsAppComponent {

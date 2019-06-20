@@ -1,9 +1,9 @@
 import { Injectable } from "@angular/core";
 
-/*
+/**
  * We must declare toastr as a variable, otherwise the IDE think it's an undeclared variable
- * */
-declare let toastr: any;
+ */
+declare let toastr;
 
 @Injectable({
   providedIn: "root"

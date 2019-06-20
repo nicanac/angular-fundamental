@@ -1,4 +1,5 @@
 import { Injectable } from "@angular/core";
+import { Subject } from "rxjs";
 
 /*
  * @Injectable() -> is a decorator and is used when there's a dependency
@@ -6,8 +7,17 @@ import { Injectable } from "@angular/core";
  * */
 @Injectable()
 export class EventService {
-  public getEvents(): object {
-    return EVENTS;
+  public getEvents() {
+    const subject = new Subject();
+    setTimeout(() => {
+      subject.next(EVENTS);
+      subject.complete();
+    }, 2000);
+    return subject;
+  }
+
+  public getEvent(id: number): any {
+    return EVENTS.find((event: any) => event.id === id);
   }
 }
 
